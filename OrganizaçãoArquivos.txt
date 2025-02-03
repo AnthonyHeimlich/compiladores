@@ -1,0 +1,11 @@
+baccarat_project/
+	analisador/
+    		lex.py              -> Analisador léxico
+		sintatico.py        -> Analisador sintático
+		jogo.py             -> Lógica do jogo
+
+	registros/
+		jogadas.txt         -> Arquivo para registrar as jogadas
+
+	main.py                 -> Arquivo principal
+	README.md               -> Descrição do projeto
