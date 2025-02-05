@@ -2,17 +2,18 @@ import re
 
 # Definindo os tipos de tokens
 tokens = [
-    ("JOGO", r"jogo"),
-    ("APOSTA", r"aposta"),
-    ("MAO", r"mão"),  # Tratar "ão" corretamente
-    ("RESULTADO", r"resultado"),
-    ("JOGADOR", r"jogador"),
-    ("BANQUEIRO", r"banqueiro"),
-    ("EMPATE", r"empate"),
+    ("JOGO", r"\bjogo\b"),
+    ("APOSTA", r"\baposta\b"),
+    ("MAO", r"\bmão\b"),  # Corrigido para "mao" sem acento
+    ("RESULTADO", r"\bresultado\b"),
+    ("JOGADOR", r"\bjogador\b"),
+    ("BANQUEIRO", r"\bbanqueiro\b"),
+    ("EMPATE", r"\bempate\b"),
     ("NUMERO", r"\d+"),
-    ("PALAVRA", r"[A-Za-záéíóúãàâêô]+"),  # Permitindo letras com acento ou til
-    ("ESPACO", r"\s+"),  # Para ignorar espaços em branco
+    ("STRING", r'"[A-Za-záéíóúãàâêô0-9]+"'),
+    ("ESPACO", r"\s+"),
 ]
+
 
 # Função para o analisador léxico
 def lexar(input_text):

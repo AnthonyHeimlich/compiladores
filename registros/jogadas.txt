@@ -1,0 +1,10 @@
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - As, 5
+Mão: Banqueiro - 6, 3
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - As, 5
+Mão: Banqueiro - 6, 3
+Resultado: Banqueiro

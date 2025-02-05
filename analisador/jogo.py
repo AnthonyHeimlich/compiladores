@@ -2,8 +2,8 @@ import random
 
 # Função para calcular o valor de uma mão
 def calcular_mao(mao):
-    valores = {"Ás": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "10": 0, "J": 0, "Q": 0, "K": 0}
-    soma = sum([valores[card] for card in mao])
+    valores = {"ás": 1, "as": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "10": 0, "j": 0, "q": 0, "k": 0}
+    soma = sum([valores[card.lower()] for card in mao])  # Converte para minúsculas
     return soma % 10
 
 # Função para simular uma rodada

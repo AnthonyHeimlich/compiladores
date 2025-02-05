@@ -10,8 +10,8 @@ def main():
     aposta jogador 100
     aposta banqueiro 200
     aposta empate 50
-    mao jogador "As" "5"
-    mao banqueiro "6" "3"
+    mão jogador "As" "5"
+    mão banqueiro "6" "3"
     resultado "banqueiro"
     '''
     
