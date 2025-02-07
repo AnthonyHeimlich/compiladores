@@ -8,3 +8,377 @@ Aposta: Banqueiro - 200
 Mão: Jogador - As, 5
 Mão: Banqueiro - 6, 3
 Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - As, 5
+Mão: Banqueiro - 6, 3
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - As, 5
+Mão: Banqueiro - 6, 3
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - As, 5
+Mão: Banqueiro - 6, 3
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 9, 8
+Mão: Banqueiro - 8, 6
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - K, 2
+Mão: Banqueiro - 10, 9
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 6, 2
+Mão: Banqueiro - 9, 3
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - K, 3
+Mão: Banqueiro - 9, 8
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 9, J
+Mão: Banqueiro - 8, J
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - J, 7
+Mão: Banqueiro - Q, 6
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 5, K
+Mão: Banqueiro - 5, 7
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 6, Q
+Mão: Banqueiro - 10, J
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - J, 10
+Mão: Banqueiro - 3, J
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 6, J
+Mão: Banqueiro - 7, 2
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 4, K
+Mão: Banqueiro - 2, 7
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 2, AS
+Mão: Banqueiro - K, 9
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - Q, 4
+Mão: Banqueiro - 3, J
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 10, 9
+Mão: Banqueiro - 6, 10
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - K, 7
+Mão: Banqueiro - J, 8
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - Q, K
+Mão: Banqueiro - K, 10
+Resultado: Empate
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 9, 10
+Mão: Banqueiro - 9, 4
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 3, 9
+Mão: Banqueiro - 5, J
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 8, Q
+Mão: Banqueiro - 8, 7
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 7, 8
+Mão: Banqueiro - 10, 5
+Resultado: Empate
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - AS, 7
+Mão: Banqueiro - Q, 2
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 7, K
+Mão: Banqueiro - 6, 2
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 7, 5
+Mão: Banqueiro - 7, 5
+Resultado: Empate
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 10, 5
+Mão: Banqueiro - as, 9
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - J, 8
+Mão: Banqueiro - 4, 10
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 7, 3
+Mão: Banqueiro - J, 3
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 10, Q
+Mão: Banqueiro - 7, 3
+Resultado: Empate
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - J, 8
+Mão: Banqueiro - 6, 4
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - Q, 2
+Mão: Banqueiro - 4, 7
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 8, 4
+Mão: Banqueiro - 5, 3
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 8, K
+Mão: Banqueiro - As, 4
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - J, 4
+Mão: Banqueiro - 6, 3
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 3, 2
+Mão: Banqueiro - 6, K
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - Q, 10
+Mão: Banqueiro - 3, Q
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 6, 4
+Mão: Banqueiro - 7, K
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 2, K
+Mão: Banqueiro - J, 6
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 7, 10
+Mão: Banqueiro - 2, 3
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - J, 9
+Mão: Banqueiro - 6, 3
+Resultado: Empate
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - Q, 7
+Mão: Banqueiro - 3, Q
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 3, 7
+Mão: Banqueiro - K, Q
+Resultado: Empate
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 8, 4
+Mão: Banqueiro - K, 4
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - K, 9
+Mão: Banqueiro - 8, 3
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 4, K
+Mão: Banqueiro - 3, 5
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 8, Q
+Mão: Banqueiro - Q, 10
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 5, 9
+Mão: Banqueiro - 8, J
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 6, 7
+Mão: Banqueiro - 5, 4
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - K, 7
+Mão: Banqueiro - 3, 8
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - K, 5
+Mão: Banqueiro - 3, 9
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 6, As
+Mão: Banqueiro - 8, J
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 8, 4
+Mão: Banqueiro - 5, J
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 4, J
+Mão: Banqueiro - 9, 6
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 5, Q
+Mão: Banqueiro - 2, 4
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 10, ás
+Mão: Banqueiro - 5, 4
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 7, 2
+Mão: Banqueiro - 9, K
+Resultado: Empate
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 4, J
+Mão: Banqueiro - 10, 4
+Resultado: Empate
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - Q, 2
+Mão: Banqueiro - 9, 2
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - Q, Ás
+Mão: Banqueiro - 9, Ás
+Resultado: Jogador
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 2, Q
+Mão: Banqueiro - J, 8
+Resultado: Banqueiro
+Aposta: Jogador - 100
+Aposta: Banqueiro - 200
+Mão: Jogador - 2, 6
+Mão: Banqueiro - J, 5
+Resultado: Jogador
+Aposta: Jogador - 300.0
+Mão: Jogador - 7, Q
+Mão: Banqueiro - 6, J
+Resultado: Jogador
+Aposta: Empate - 200.0
+Mão: Jogador - 5, J
+Mão: Banqueiro - 3, Q
+Resultado: Jogador
+Aposta: Jogador - 200.0
+Mão: Jogador - J, K
+Mão: Banqueiro - 8, K
+Resultado: Banqueiro
+Aposta: Jogador - 300.0
+Mão: Jogador - Ás, 10
+Mão: Banqueiro - J, 3
+Resultado: Banqueiro
+Aposta: Jogador - 200.0
+Mão: Jogador - 4, 3
+Mão: Banqueiro - J, 9
+Resultado: Banqueiro
+Aposta: Banqueiro - 300.0
+Mão: Jogador - 2, 6
+Mão: Banqueiro - 8, 10
+Resultado: Empate
+Aposta: Jogador - 300.0
+Mão: Jogador - 8, Q
+Mão: Banqueiro - J, 5
+Resultado: Jogador
+Aposta: Banqueiro - 300.0
+Mão: Jogador - 5, 9
+Mão: Banqueiro - K, 5
+Resultado: Banqueiro
+Aposta: Jogador - 300.0
+Mão: Jogador - 8, 7
+Mão: Banqueiro - K, 7
+Resultado: Banqueiro
+Aposta: Empate - 400.0
+Mão: Jogador - 5, 7
+Mão: Banqueiro - K, 6
+Resultado: Banqueiro
+Aposta: Jogador - 300.0
+Mão: Jogador - 2, 7
+Mão: Banqueiro - 8, 5
+Resultado: Jogador
+Aposta: Empate - 600.0
+Mão: Jogador - 2, J
+Mão: Banqueiro - 4, 10
+Resultado: Banqueiro
+Aposta: Empate - 20.0
+Mão: Jogador - 8, 10
+Mão: Banqueiro - 9, 2
+Resultado: Jogador
+Aposta: Jogador - 300.0
+Mão: Jogador - 4, 6
+Mão: Banqueiro - J, 10
+Resultado: Empate
+Aposta: Empate - 680.0
+Mão: Jogador - 9, J
+Mão: Banqueiro - K, 9
+Resultado: Empate
+Aposta: Empate - 5440.0
+Mão: Jogador - 8, 3
+Mão: Banqueiro - 3, 2
+Resultado: Banqueiro
