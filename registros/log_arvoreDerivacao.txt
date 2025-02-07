@@ -1,0 +1,225 @@
+comando
+|
+|-- aposta
+|   |
+|   |-- 'aposta'
+|   |-- jogador
+|   |   |
+|   |   |-- 'jogador'
+|   |-- valor
+|   |   |
+|   |   |-- NUMERO
+|   |   |   |
+|   |   |   |-- 200.0
+
+
+comando
+|
+|-- mao
+|   |
+|   |-- 'mão'
+|   |-- jogador
+|   |   |
+|   |   |-- 'jogador'
+|   |-- carta
+|   |   |
+|   |   |-- STRING
+|   |   |   |
+|   |   |   |-- '7'
+|   |-- carta
+|   |   |
+|   |   |-- STRING
+|   |   |   |
+|   |   |   |-- 'K'
+
+
+comando
+|
+|-- resultado
+|   |
+|   |-- 'resultado'
+|   |-- jogador
+|   |   |
+|   |   |-- 'jogador'
+
+
+comando
+|
+|-- aposta
+|   |
+|   |-- 'aposta'
+|   |-- jogador
+|   |   |
+|   |   |-- 'jogador'
+|   |-- valor
+|   |   |
+|   |   |-- NUMERO
+|   |   |   |
+|   |   |   |-- 400.0
+
+
+comando
+|
+|-- mao
+|   |
+|   |-- 'mão'
+|   |-- jogador
+|   |   |
+|   |   |-- 'jogador'
+|   |-- carta
+|   |   |
+|   |   |-- STRING
+|   |   |   |
+|   |   |   |-- '4'
+|   |-- carta
+|   |   |
+|   |   |-- STRING
+|   |   |   |
+|   |   |   |-- '10'
+
+
+comando
+|
+|-- resultado
+|   |
+|   |-- 'resultado'
+|   |-- jogador
+|   |   |
+|   |   |-- 'jogador'
+
+
+comando
+|
+|-- aposta
+|   |
+|   |-- 'aposta'
+|   |-- jogador
+|   |   |
+|   |   |-- 'jogador'
+|   |-- valor
+|   |   |
+|   |   |-- NUMERO
+|   |   |   |
+|   |   |   |-- 200.0
+
+
+comando
+|
+|-- mao
+|   |
+|   |-- 'mão'
+|   |-- jogador
+|   |   |
+|   |   |-- 'jogador'
+|   |-- carta
+|   |   |
+|   |   |-- STRING
+|   |   |   |
+|   |   |   |-- '7'
+|   |-- carta
+|   |   |
+|   |   |-- STRING
+|   |   |   |
+|   |   |   |-- 'K'
+
+
+comando
+|
+|-- resultado
+|   |
+|   |-- 'resultado'
+|   |-- jogador
+|   |   |
+|   |   |-- 'jogador'
+
+
+comando
+|
+|-- aposta
+|   |
+|   |-- 'aposta'
+|   |-- jogador
+|   |   |
+|   |   |-- 'jogador'
+|   |-- valor
+|   |   |
+|   |   |-- NUMERO
+|   |   |   |
+|   |   |   |-- 1800.0
+
+
+comando
+|
+|-- mao
+|   |
+|   |-- 'mão'
+|   |-- jogador
+|   |   |
+|   |   |-- 'jogador'
+|   |-- carta
+|   |   |
+|   |   |-- STRING
+|   |   |   |
+|   |   |   |-- '8'
+|   |-- carta
+|   |   |
+|   |   |-- STRING
+|   |   |   |
+|   |   |   |-- 'Q'
+
+
+comando
+|
+|-- resultado
+|   |
+|   |-- 'resultado'
+|   |-- jogador
+|   |   |
+|   |   |-- 'jogador'
+
+
+comando
+|
+|-- aposta
+|   |
+|   |-- 'aposta'
+|   |-- jogador
+|   |   |
+|   |   |-- 'jogador'
+|   |-- valor
+|   |   |
+|   |   |-- NUMERO
+|   |   |   |
+|   |   |   |-- 14400.0
+
+
+comando
+|
+|-- mao
+|   |
+|   |-- 'mão'
+|   |-- jogador
+|   |   |
+|   |   |-- 'jogador'
+|   |-- carta
+|   |   |
+|   |   |-- STRING
+|   |   |   |
+|   |   |   |-- '10'
+|   |-- carta
+|   |   |
+|   |   |-- STRING
+|   |   |   |
+|   |   |   |-- 'Ás'
+
+
+comando
+|
+|-- resultado
+|   |
+|   |-- 'resultado'
+|   |-- jogador
+|   |   |
+|   |   |-- 'jogador'
+
+

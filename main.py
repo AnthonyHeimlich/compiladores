@@ -1,6 +1,7 @@
 import random
 from analisador.sintatico import analisar
 from analisador.jogo import jogar_rodada
+import os
 
 def gerar_mao():
     """Gera uma mão aleatória com duas cartas"""
@@ -48,6 +49,24 @@ def jogar_novamente():
     resposta = input().strip().lower()
     return resposta == 'sim'
 
+def gerar_arvore_derivacao(comando):
+    """Gera a árvore de derivação com base no comando"""
+    if comando['tipo'] == 'aposta':
+        return f"comando\n|\n|-- aposta\n|   |\n|   |-- 'aposta'\n|   |-- jogador\n|   |   |\n|   |   |-- 'jogador'\n|   |-- valor\n|   |   |\n|   |   |-- NUMERO\n|   |   |   |\n|   |   |   |-- {comando['valor']}\n"
+    elif comando['tipo'] == 'mao':
+        return f"comando\n|\n|-- mao\n|   |\n|   |-- 'mão'\n|   |-- jogador\n|   |   |\n|   |   |-- 'jogador'\n|   |-- carta\n|   |   |\n|   |   |-- STRING\n|   |   |   |\n|   |   |   |-- '{comando['carta1']}'\n|   |-- carta\n|   |   |\n|   |   |-- STRING\n|   |   |   |\n|   |   |   |-- '{comando['carta2']}'\n"
+    elif comando['tipo'] == 'resultado':
+        return f"comando\n|\n|-- resultado\n|   |\n|   |-- 'resultado'\n|   |-- jogador\n|   |   |\n|   |   |-- 'jogador'\n"
+    return ""
+
+def registrar_arvore_derivacao(arvore):
+    """Registra a árvore de derivação no arquivo"""
+    if not os.path.exists("registros"):
+        os.makedirs("registros")
+    
+    with open("registros/log_arvoreDerivacao.txt", "a", encoding='utf-8') as arquivo:
+        arquivo.write(arvore + "\n\n")
+
 def main():
     banca = 1000.00  # Valor inicial da banca
     
@@ -69,7 +88,10 @@ def main():
             resposta = 'sim'  
 
         try:
+            # Análise sintática
             analisar('')
+            
+            # Coleta as apostas
             tipo_aposta, multiplicador, valor_aposta = menu_apostas()
             
             if tipo_aposta is None:
@@ -104,6 +126,16 @@ def main():
             jogada = f"Aposta: {tipo_aposta} - {valor_aposta}\nMão: Jogador - {', '.join(mao_jogador)}\n" \
                      f"Mão: Banqueiro - {', '.join(mao_banqueiro)}\nResultado: {resultado}"
          
+            # Gerar a árvore de derivação e registrar
+            arvore_aposta = gerar_arvore_derivacao({'tipo': 'aposta', 'valor': valor_aposta})
+            arvore_mao = gerar_arvore_derivacao({'tipo': 'mao', 'carta1': mao_jogador[0], 'carta2': mao_jogador[1]})
+            arvore_resultado = gerar_arvore_derivacao({'tipo': 'resultado'})
+            
+            registrar_arvore_derivacao(arvore_aposta)
+            registrar_arvore_derivacao(arvore_mao)
+            registrar_arvore_derivacao(arvore_resultado)
+            
+            # Registrar jogada no arquivo de jogadas
             registrar_jogada(jogada)
         
         except SyntaxError as e:
