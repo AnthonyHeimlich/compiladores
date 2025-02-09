@@ -68,7 +68,7 @@ def registrar_arvore_derivacao(arvore):
         arquivo.write(arvore + "\n\n")
 
 def main():
-    banca = 1000.00  # Valor inicial da banca
+    banca = 1000.00
     
     while True: 
         print(f"\nSaldo atual: R${banca:.2f}") 
@@ -88,10 +88,8 @@ def main():
             resposta = 'sim'  
 
         try:
-            # Análise sintática
             analisar('')
             
-            # Coleta as apostas
             tipo_aposta, multiplicador, valor_aposta = menu_apostas()
             
             if tipo_aposta is None:
@@ -126,7 +124,6 @@ def main():
             jogada = f"Aposta: {tipo_aposta} - {valor_aposta}\nMão: Jogador - {', '.join(mao_jogador)}\n" \
                      f"Mão: Banqueiro - {', '.join(mao_banqueiro)}\nResultado: {resultado}"
          
-            # Gerar a árvore de derivação e registrar
             arvore_aposta = gerar_arvore_derivacao({'tipo': 'aposta', 'valor': valor_aposta})
             arvore_mao = gerar_arvore_derivacao({'tipo': 'mao', 'carta1': mao_jogador[0], 'carta2': mao_jogador[1]})
             arvore_resultado = gerar_arvore_derivacao({'tipo': 'resultado'})
@@ -135,7 +132,6 @@ def main():
             registrar_arvore_derivacao(arvore_mao)
             registrar_arvore_derivacao(arvore_resultado)
             
-            # Registrar jogada no arquivo de jogadas
             registrar_jogada(jogada)
         
         except SyntaxError as e:

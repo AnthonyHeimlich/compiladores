@@ -1,0 +1,75 @@
+# Árvore de derivação:
+
+Exemplo:
+
+comandos
+├── comando
+│   ├── aposta
+│   │   ├── "Banqueiro"
+│   │   └── valor
+│   │       └── NUMERO ("100")
+│   ├── mao
+│   │   ├── "Mão"
+│   │   ├── jogador
+│   │   │   ├── "Jogador"
+│   │   │   ├── carta ("Ás")
+│   │   │   └── carta ("8")
+│   │   ├── jogador
+│   │   │   ├── "Banqueiro"
+│   │   │   ├── carta ("5")
+│   │   │   └── carta ("9")
+│   ├── resultado
+│   │   ├── "Resultado"
+│   │   ├── jogador ("Banqueiro")
+│   │   ├── soma_jogador ("6")
+│   │   └── soma_banqueiro ("8")
+└── comandos (pode haver mais comandos ou encerrar)
+
+
+
+
+# Árvore de derivação anotada:
+
+comandos.val = processar_comando(comando.val)  
+├── comando.val = aposta.val  
+│   ├── aposta.val = processar_aposta(jogador.val, valor.val)  
+│   │   ├── "aposta"  
+│   │   ├── jogador.val = "banqueiro"  
+│   │   │   ├── "banqueiro"  
+│   │   └── valor.val = int(NUMERO.val)  
+│   │       ├── NUMERO ("100")  
+│   │       └── valor.val = 100  
+│   └── aposta.val = processar_aposta("banqueiro", 100)  
+├── comando.val = mao.val  
+│   ├── mao.val = processar_mao(jogador.val, carta1.val, carta2.val)  
+│   │   ├── "mão"  
+│   │   ├── jogador.val = "jogador"  
+│   │   │   ├── "jogador"  
+│   │   ├── carta1.val = STRING.val.strip('"')  
+│   │   │   ├── STRING ("Ás")  
+│   │   │   └── carta1.val = "Ás"  
+│   │   ├── carta2.val = STRING.val.strip('"')  
+│   │   │   ├── STRING ("8")  
+│   │   │   └── carta2.val = "8"  
+│   │   └── mao.val = processar_mao("jogador", "Ás", "8")  
+├── comando.val = mao.val  
+│   ├── mao.val = processar_mao(jogador.val, carta1.val, carta2.val)  
+│   │   ├── "mão"  
+│   │   ├── jogador.val = "banqueiro"  
+│   │   │   ├── "banqueiro"  
+│   │   ├── carta1.val = STRING.val.strip('"')  
+│   │   │   ├── STRING ("5")  
+│   │   │   └── carta1.val = "5"  
+│   │   ├── carta2.val = STRING.val.strip('"')  
+│   │   │   ├── STRING ("9")  
+│   │   │   └── carta2.val = "9"  
+│   │   └── mao.val = processar_mao("banqueiro", "5", "9")  
+├── comando.val = resultado.val  
+│   ├── resultado.val = processar_resultado(jogador.val)  
+│   │   ├── "resultado"  
+│   │   ├── jogador.val = "banqueiro"  
+│   │   │   ├── "banqueiro"  
+│   │   └── resultado.val = processar_resultado("banqueiro")  
+└── comandos.val = processar_comando(comando.val) + comandos.val  
+
+

@@ -1,6 +1,6 @@
 baccarat_project/
 	analisador/
-    		lex.py              -> Analisador léxico
+    	lex.py              -> Analisador léxico
 		sintatico.py        -> Analisador sintático
 		jogo.py             -> Lógica do jogo
 
